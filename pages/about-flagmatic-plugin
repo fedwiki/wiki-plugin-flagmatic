@@ -1,0 +1,37 @@
+{
+  "title": "About Flagmatic Plugin",
+  "story": [
+  {
+    "type": "paragraph",
+    "id": "c918464c4e21f13f",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "flagmatic",
+    "id": "d1aee01d5ebaae60",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+],
+  "journal": [
+  {
+    "type": "create",
+    "item": {
+      "title": "About Flagmatic Plugin",
+      "story": [
+  {
+    "type": "paragraph",
+    "id": "c918464c4e21f13f",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "flagmatic",
+    "id": "d1aee01d5ebaae60",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+]
+    },
+    "date": 1423952766000,
+    "certificate": "from mkplugin.sh"
+  }
+]
+}
