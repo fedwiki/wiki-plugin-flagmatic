@@ -52,17 +52,18 @@ emit = ($item, item) ->
   for [1..item.choices || 40]
     $flags.append $flag = $ '<canvas width=32 height=32 style="padding: 3px;"/>'
     paint $flag.get(0)
-    $flag.click  ->
-      data = this.toDataURL()
-      ajax = $.post '/favicon.png', {image: data}, (reply) ->
-      ajax.done ->
-        $item.find('.caption').text 'sweet'
-      ajax.error ->
-        $item.find('.caption').text 'ouch, logged in?'
-      delay 1500, ->
-        $item.find('.caption').text 'choose another flag'
 
 bind = ($item, item) ->
+  $item.find('canvas').click  ->
+    data = this.toDataURL()
+    ajax = $.post '/favicon.png', {image: data}, (reply) ->
+    ajax.done ->
+      $item.find('.caption').text 'sweet'
+    ajax.error ->
+      $item.find('.caption').text 'ouch, logged in?'
+    delay 1500, ->
+      $item.find('.caption').text 'choose another flag'
+
 
 window.plugins.flagmatic = {emit, bind} if window?
 module.exports = {} if module?
