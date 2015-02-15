@@ -9,5 +9,5 @@ This plugin, type: flagmatic, extends the markup of the federated wiki.
 
 ## License
 
-MIT & GPL
+MIT
 
