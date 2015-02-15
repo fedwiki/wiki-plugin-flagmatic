@@ -23,8 +23,8 @@ hsltorgb = (h, s, l) ->
 
 paint = (canvas) ->
   ctx = canvas.getContext('2d')
-  light = hsltorgb(Math.random() * 360, .78, .50)
-  dark = hsltorgb(Math.random() * 360, .78, .25)
+  light = hsltorgb(Math.random() * 360, .78, .4)
+  dark = hsltorgb(Math.random() * 360, .78, .55)
   angle = 2 * (Math.random() - 0.5)
   sin = Math.sin angle
   cos = Math.cos angle
