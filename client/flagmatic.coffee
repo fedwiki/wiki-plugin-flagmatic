@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Flagmatic Plugin
+ *
+ * Copyright Ward Cunningham and other contributors
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-flagmatic/blob/master/LICENSE.txt
+###
 
 # The Flagmatic plugin offers a choice of new flags
 # item.choices selects how may, 40 by default
