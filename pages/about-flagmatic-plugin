@@ -1,37 +1,124 @@
 {
   "title": "About Flagmatic Plugin",
   "story": [
-  {
-    "type": "paragraph",
-    "id": "c918464c4e21f13f",
-    "text": "This plugin offers an assortment of flags that can replace that of the logged-in site."
-  },
-  {
-    "type": "flagmatic",
-    "id": "d1aee01d5ebaae60",
-    "choices": 40
-  }
-],
-  "journal": [
-  {
-    "type": "create",
-    "item": {
-      "title": "About Flagmatic Plugin",
-      "story": [
-  {
-    "type": "paragraph",
-    "id": "c918464c4e21f13f",
-    "text": "This plugin offers an assortment of flags that can replace that of the logged-in site."
-  },
-  {
-    "type": "flagmatic",
-    "id": "d1aee01d5ebaae60",
-    "choices": 40
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "c918464c4e21f13f",
+      "text": "This plugin offers an assortment of flags that can replace that of the logged-in site. Each choice is saved immediately. Choose often. Refresh offers new choices."
     },
-    "date": 1423952766000,
-    "certificate": "from mkplugin.sh"
-  }
-]
+    {
+      "type": "flagmatic",
+      "id": "d1aee01d5ebaae60",
+      "choices": 40
+    },
+    {
+      "type": "paragraph",
+      "id": "a784c4df85f456ed",
+      "text": "Tip: complete a welcome page with two links, one to the doing that is easy to share and the other to the author's statement of purpose and qualification. The statement usefully includes the rationale for the chosen site name and memory mnemonics for the flag."
+    },
+    {
+      "type": "paragraph",
+      "id": "e8a98533237ff2a1",
+      "text": "Plugin source can be found on [https://github.com/fedwiki/wiki-plugin-flagmatic github]."
+    },
+    {
+      "type": "paragraph",
+      "id": "60e14fdca8909714",
+      "text": "The item contains a count of \"choices\" but offers no way to adjust it. 40 seems a good number."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About Flagmatic Plugin",
+        "story": [
+          {
+            "type": "paragraph",
+            "id": "c918464c4e21f13f",
+            "text": "This plugin offers an assortment of flags that can replace that of the logged-in site."
+          },
+          {
+            "type": "flagmatic",
+            "id": "d1aee01d5ebaae60",
+            "choices": 40
+          }
+        ]
+      },
+      "date": 1423952766000,
+      "certificate": "from mkplugin.sh"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a784c4df85f456ed"
+      },
+      "id": "a784c4df85f456ed",
+      "type": "add",
+      "after": "d1aee01d5ebaae60",
+      "date": 1491181000133
+    },
+    {
+      "type": "edit",
+      "id": "a784c4df85f456ed",
+      "item": {
+        "type": "paragraph",
+        "id": "a784c4df85f456ed",
+        "text": "Tip: complete a welcome page with two links, one to the doing that is easy to share and the other to the author's statement of purpose and qualification. The statement usefully includes the rationale for the chosen site name and memory mnemonics for the flag."
+      },
+      "date": 1491181032289
+    },
+    {
+      "type": "edit",
+      "id": "c918464c4e21f13f",
+      "item": {
+        "type": "paragraph",
+        "id": "c918464c4e21f13f",
+        "text": "This plugin offers an assortment of flags that can replace that of the logged-in site. Each choice is saved immediately. Choose often. Refresh offers new choices."
+      },
+      "date": 1491182575811
+    },
+    {
+      "type": "add",
+      "id": "e8a98533237ff2a1",
+      "item": {
+        "type": "paragraph",
+        "id": "e8a98533237ff2a1",
+        "text": "Plugin source can be found on [https://github.com/fedwiki/wiki-plugin-flagmatic github]."
+      },
+      "after": "a784c4df85f456ed",
+      "date": 1491182705379
+    },
+    {
+      "type": "add",
+      "id": "60e14fdca8909714",
+      "item": {
+        "type": "paragraph",
+        "id": "60e14fdca8909714",
+        "text": "The item json contains a count p"
+      },
+      "after": "e8a98533237ff2a1",
+      "date": 1491182739609
+    },
+    {
+      "type": "edit",
+      "id": "60e14fdca8909714",
+      "item": {
+        "type": "paragraph",
+        "id": "60e14fdca8909714",
+        "text": "The item json contains a count of \"choices\" parameter but offers no way to adjust it. Experience shows 40 to be a good count."
+      },
+      "date": 1491182846696
+    },
+    {
+      "type": "edit",
+      "id": "60e14fdca8909714",
+      "item": {
+        "type": "paragraph",
+        "id": "60e14fdca8909714",
+        "text": "The item contains a count of \"choices\" but offers no way to adjust it. 40 seems a good number."
+      },
+      "date": 1491182959348
+    }
+  ]
 }

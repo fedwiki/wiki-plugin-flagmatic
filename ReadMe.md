@@ -1,6 +1,6 @@
 # Federated Wiki - Flagmatic Plugin
 
-This plugin, type: flagmatic, extends the markup of the federated wiki.
+This plugin offers an assortment of flags that can replace that of the logged-in site.
 
 ## Build
 
