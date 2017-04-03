@@ -1,37 +1,62 @@
 {
   "title": "About Flagmatic Plugin",
   "story": [
-  {
-    "type": "paragraph",
-    "id": "c918464c4e21f13f",
-    "text": "This plugin offers an assortment of flags that can replace that of the logged-in site."
-  },
-  {
-    "type": "flagmatic",
-    "id": "d1aee01d5ebaae60",
-    "choices": 40
-  }
-],
-  "journal": [
-  {
-    "type": "create",
-    "item": {
-      "title": "About Flagmatic Plugin",
-      "story": [
-  {
-    "type": "paragraph",
-    "id": "c918464c4e21f13f",
-    "text": "This plugin offers an assortment of flags that can replace that of the logged-in site."
-  },
-  {
-    "type": "flagmatic",
-    "id": "d1aee01d5ebaae60",
-    "choices": 40
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "c918464c4e21f13f",
+      "text": "This plugin offers an assortment of flags that can replace that of the logged-in site."
     },
-    "date": 1423952766000,
-    "certificate": "from mkplugin.sh"
-  }
-]
+    {
+      "type": "flagmatic",
+      "id": "d1aee01d5ebaae60",
+      "choices": 40
+    },
+    {
+      "type": "paragraph",
+      "id": "a784c4df85f456ed",
+      "text": "Tip: complete a welcome page with two links, one to the doing that is easy to share and the other to the author's statement of purpose and qualification. The statement usefully includes the rationale for the chosen site name and memory mnemonics for the flag."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About Flagmatic Plugin",
+        "story": [
+          {
+            "type": "paragraph",
+            "id": "c918464c4e21f13f",
+            "text": "This plugin offers an assortment of flags that can replace that of the logged-in site."
+          },
+          {
+            "type": "flagmatic",
+            "id": "d1aee01d5ebaae60",
+            "choices": 40
+          }
+        ]
+      },
+      "date": 1423952766000,
+      "certificate": "from mkplugin.sh"
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a784c4df85f456ed"
+      },
+      "id": "a784c4df85f456ed",
+      "type": "add",
+      "after": "d1aee01d5ebaae60",
+      "date": 1491181000133
+    },
+    {
+      "type": "edit",
+      "id": "a784c4df85f456ed",
+      "item": {
+        "type": "paragraph",
+        "id": "a784c4df85f456ed",
+        "text": "Tip: complete a welcome page with two links, one to the doing that is easy to share and the other to the author's statement of purpose and qualification. The statement usefully includes the rationale for the chosen site name and memory mnemonics for the flag."
+      },
+      "date": 1491181032289
+    }
+  ]
 }
