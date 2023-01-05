@@ -61,12 +61,12 @@ emit = ($item, item) ->
     paint $flag.get(0)
 
 bind = ($item, item) ->
-  $item.find('canvas').click  ->
+  $item.find('canvas').on 'click', () ->
     data = this.toDataURL()
     ajax = $.post '/favicon.png', {image: data}, (reply) ->
     ajax.done ->
       $item.find('.caption').text 'sweet'
-    ajax.error ->
+    ajax.fail ->
       $item.find('.caption').text 'ouch, logged in?'
     delay 1500, ->
       $item.find('.caption').text 'choose another flag'
