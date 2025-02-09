@@ -19,8 +19,6 @@ const paint = canvas => {
 
   const gr = ctx.createLinearGradient(0, 0, x2, y2)
 
-  console.log('color', light, dark)
-
   gr.addColorStop(0, light)
   gr.addColorStop(1, dark)
 
